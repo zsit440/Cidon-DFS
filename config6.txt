@@ -1,0 +1,14 @@
+// nodes
+0 8090  // net/network port 8090
+1 8081  // node 1 port 8081
+2 8082
+3 8083
+4 8084
+5 8085
+6 8086
+
+// network arcs
+- 1  // default delay (for unspecified arcs)
+1-2 10
+1-4 10  // arc 1-4 delay 10 "ms"
+2-4 10
